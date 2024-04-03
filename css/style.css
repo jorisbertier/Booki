@@ -30,6 +30,7 @@ body {
 }
 #menu a {
     padding-top: 30px;
+    cursor: pointer;
 }
 #menu a:nth-child(1) {
     color: var(--main-color);
@@ -47,8 +48,8 @@ nav {
 }
 
 nav img {
-    height: 30px;
-    width: 100px;
+    height: 25px;
+    width: 90px;
     padding-top: 20px;
 }
 
