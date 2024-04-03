@@ -242,8 +242,17 @@ h3 {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     gap: 20px;
 }
-.hebergement-card article {
+
+/* .hebergement-card {
+    width: 100%;
+} */
+
+.hebergement-card a {
     width: 30%;
+}
+
+.hebergement-card article {
+    width: 100%;
     background-color: white;
     border-radius: 20px;
     padding: 5px;
@@ -253,6 +262,9 @@ h3 {
     height: 124px;
     object-fit: cover;
     border-radius: 20px;
+}
+.hebergement-card .card-content {
+    width: 100%;
 }
 
 /****** Hebergements ***********/
