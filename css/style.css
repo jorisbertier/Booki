@@ -27,7 +27,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 69%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -231,8 +231,31 @@ h3 {
     /* display: flex; */
     /* align-items: center; */
 }
+/* Footer */
 
+footer {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: var(--main-bg-color);
+    width: 70%;
+    margin: 0 auto;
+    gap: 20px;
+}
+footer ul {
+    width: 100%;
+    text-align: left;
+    list-style: none;
 
+}
+footer ul li {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+footer ul li:nth-child(1){
+    font-weight: 700;
+    font-size: 18px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
