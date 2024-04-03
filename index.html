@@ -18,16 +18,41 @@
     <nav>
         <img src="./images/logo/Booki.png">
         <div id="menu">
-            <div>Hébergements</div>
-            <div>Activités</div>
+            <a href="#hebergements-and-populaires">Hébergements</a>
+            <a href="#populaires">Activités</a>
         </div>
     </nav>
 
     <div class="main-container">
-        <header></header>
+        <header>
+            <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
+            <p>En plein centre-ville ou en pleine nature</p>
+            <form>
+                <div class="button-search">
+                    <div class="position">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input type="text" placeholder="Marseille">
+                    <div class="search">Rechercher</div>
+                </div>
+            </form>
+            <div class="filter">
+                <h3>Filtres</h3>
+                <button><i class="fa-solid fa-money-bill-wave"></i> Économique</button>
+                <button><i class="fa-solid fa-person"></i> Familial</button>
+                <button><i class="fa-solid fa-heart"></i> Romantique</button>
+                <button><i class="fa-solid fa-money-bill-wave"></i> Nos pépites</button>
+            </div>
+            <div class="information">
+                <div class="logo-info">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <span>Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>
+        </header>
         <main>
 
-            <div class="hebergements-and-populaires">
+            <div id="hebergements-and-populaires">
 
                 <section class="hebergements">
                     <div class="hebergement-title">
@@ -142,7 +167,7 @@
                     </div>
                 </section>
 
-                <section class="populaires">
+                <section id="populaires">
                     <div class="populaires-title">
                         <h2>Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
