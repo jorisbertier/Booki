@@ -27,9 +27,10 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     padding: 30px;
+    max-width: 1440px;
 }
 
 nav img {
@@ -40,9 +41,11 @@ nav img {
 
 
 .main-container {
-    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
     max-width: 1440px;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -84,6 +87,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .hebergements-and-populaires section {
@@ -168,6 +172,16 @@ a {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+@media (max-width: 1440px) {
+    /* … */
+    nav {
+        width: 90%;
+    }
+    .main-container {
+        width: 90%;
+    }
+  }
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
