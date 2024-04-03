@@ -179,6 +179,12 @@ h3 {
     color: var(--color-back);
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.filter button:hover {
+    background-color: var(--filter-bg-color);
 }
 
 .information {
