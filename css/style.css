@@ -160,6 +160,27 @@ h3 {
     cursor: pointer;
 }
 
+.search-mobile {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+    height: 0;
+    font-weight: 700;
+    font-size: 18px;
+    width: 0;
+    border-radius: 15px;
+    /* border-bottom-right-radius: 15px; */
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.search-mobile i {
+    color: var(--white);
+}
+
 .filter {
     display: flex;
     gap: 20px;
@@ -484,6 +505,12 @@ footer ul li:nth-child(1){
 
     h3 {
         font-size: 14px;
+    }
+
+    .search-mobile {
+        width: 50px;
+        height: 100%;
+        visibility: visible;
     }
 
     footer ul li:nth-child(1) {
