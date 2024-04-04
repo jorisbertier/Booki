@@ -560,6 +560,7 @@ footer ul li:nth-child(1){
         margin-bottom: 25px;
         margin-top: 25px;
     }
+
     .button-search input {
         width: 270px;
     }
@@ -649,9 +650,6 @@ footer ul li:nth-child(1){
         margin-top: 225px;
     }
 
-    #activities .activities {
-    }
-
     .activities-title {
         margin-bottom: 70px;
     }
@@ -680,8 +678,6 @@ footer ul li:nth-child(1){
 
     /* Footer */
     footer {
-        /* visibility: hidden;
-        width: 0; */
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -706,5 +702,10 @@ footer ul li:nth-child(1){
     .filter button {
         width: 130px;
         font-size: 12px;
+    }
+}
+@media (max-width: 345px) {
+    .button-search input {
+        width: 200px;
     }
 }
