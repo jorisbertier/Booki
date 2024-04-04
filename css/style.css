@@ -191,6 +191,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 16px;
 }
 .filter button {
     width: 173px;
@@ -556,6 +557,11 @@ footer ul li:nth-child(1){
     .button-search {
         display: flex;
         justify-content: center;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .button-search input {
+        width: 270px;
     }
 
     .search {
@@ -583,11 +589,13 @@ footer ul li:nth-child(1){
 
     .buttons-filter {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
+        /* width: 100%; */
     }
     .buttons-filter button {
         margin: 5px;
+        width: 175px;
     }
 
     .information {
