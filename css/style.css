@@ -275,7 +275,8 @@ h3 {
     width: 99%;
     height: 124px;
     object-fit: cover;
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .hebergement-card .card-content {
     width: 100%;
@@ -555,16 +556,97 @@ footer ul li:nth-child(1){
         flex-wrap: wrap;
     }
     .buttons-filter button {
-        flex-basis: calc(50% - 10px); /* 10px de marge entre les éléments */
+        /* flex-basis: calc(100% - 10px ); 10px de marge entre les éléments */
         margin: 5px; /* Marge entre les éléments */
     }
+
+    .information {
+        margin-bottom: 0px;
+    }
+    /* Hebergements et populaires */
+    #hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+    #hebergements-and-populaires section {
+        border-radius: 0;
+    }
+
+    #hebergements-and-populaires .hebergements {
+        background-color: var(--white);
+        width: 100%;
+    }
+    
+    .hebergement-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hebergement-card a {
+        width: 100%;
+    }
+
+    .hebergement-card a article {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
     .hebergement-card article {
         flex-basis: calc(50% - 10px); 
     }
 
+    .populaires-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .populaires-cards a {
+        width: 100%;
+    }
+    .populaires-cards img {
+        width: 40%;
+    }
+
+    /* Activities */
+    #activities {
+        margin-top: 225px;
+    }
+
+    #activities .activities {
+    }
+
+    .activities-title {
+        margin-bottom: 70px;
+    }
+    .activities-title h2 {
+        margin-top: -215px;
+        margin-left: 5%;
+    }
+    .activities-cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .activities-cards article {
+        margin-left: 5%;
+        width: 90%;
+        height: 50%;
+        cursor: pointer;
+    }
+    .activities-cards article img {
+        height: 80%;
+    }
+    .activities-cards .card-content {
+        height: 20%;
+    }
+
+    /* Footer */
     footer {
-        visibility: hidden;
-        width: 0;
+        /* visibility: hidden;
+        width: 0; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 350px;
     }
     footer ul li:nth-child(1) {
         font-size: 16px;
@@ -573,4 +655,8 @@ footer ul li:nth-child(1){
     footer ul li {
         font-size: 14px;
     }
+}
+
+@media (max-width: 768px) {
+
 }
