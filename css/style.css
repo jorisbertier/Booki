@@ -476,7 +476,36 @@ footer ul li:nth-child(1){
     }
 }
 /* Tablettes */
-@media (max-width: 728px) {}
+@media (max-width: 769px) {
+    .filter {
+        display: flex;
+        flex-direction: column;
+    }
+    .filter h3 {
+        display: flex;
+        justify-content: start;
+    }
+    .filter button {
+        width: 135px;
+        font-size: 14px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .card-subtitle {
+        font-size: 14px;
+    }
+    .activities h3 {
+        font-size: 14px;
+    }
+    .activities-cards article {
+        height: 62%;
+    }
+    .activities-cards article img {
+        height: 75%;
+    }
+
+}
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 426px) {
@@ -558,8 +587,7 @@ footer ul li:nth-child(1){
         flex-wrap: wrap;
     }
     .buttons-filter button {
-        /* flex-basis: calc(100% - 10px ); 10px de marge entre les éléments */
-        margin: 5px; /* Marge entre les éléments */
+        margin: 5px;
     }
 
     .information {
