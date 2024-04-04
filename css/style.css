@@ -574,6 +574,7 @@ footer ul li:nth-child(1){
     #hebergements-and-populaires .hebergements {
         background-color: var(--white);
         width: 100%;
+        margin-bottom: 50px;
     }
     
     .hebergement-card {
@@ -657,6 +658,15 @@ footer ul li:nth-child(1){
     }
 }
 
-@media (max-width: 768px) {
-
+@media (max-width: 407px) {
+    .filter button {
+        width: 150px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px) {
+    .filter button {
+        width: 130px;
+        font-size: 12px;
+    }
 }
