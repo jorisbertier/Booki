@@ -478,6 +478,10 @@ footer ul li:nth-child(1){
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
 
+    .main-container {
+        width: 100%;
+    }
+    
     #menu{
         width: 100%;
         gap: 0;
@@ -512,6 +516,9 @@ footer ul li:nth-child(1){
         flex-direction: column;
         text-align: left;
         justify-content: center;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .button-search {
@@ -550,6 +557,9 @@ footer ul li:nth-child(1){
     .buttons-filter button {
         flex-basis: calc(50% - 10px); /* 10px de marge entre les éléments */
         margin: 5px; /* Marge entre les éléments */
+    }
+    .hebergement-card article {
+        flex-basis: calc(50% - 10px); 
     }
 
     footer {
