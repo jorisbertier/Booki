@@ -395,6 +395,17 @@ footer ul li:nth-child(1){
     .main-container {
         width: 90%;
     }
+
+    footer {
+        width: 90%;
+    }
+
+    #activities {
+        margin-bottom: 50px;
+    }
+    .activities-cards article {
+        height: 90%;
+    }
   }
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
@@ -427,6 +438,17 @@ footer ul li:nth-child(1){
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    #activities {
+        margin-bottom: -45px;
+    }
+
+    .activities-cards article {
+        height: 70%;
+    }
+    .activities-cards article img {
+        height: 80%;
     }
 }
 
