@@ -515,9 +515,13 @@ footer ul li:nth-child(1){
         width: 100%;
     }
     
-    #menu{
+    #menu {
         width: 100%;
         gap: 0;
+    }
+
+    #menu a {
+        padding-bottom: 15px;
     }
 
     #menu a:nth-child(1) {
