@@ -27,10 +27,12 @@ body {
     display: flex;
     gap: 20px;
 }
+
 #menu a {
     padding-top: 30px;
     cursor: pointer;
 }
+
 #menu a:nth-child(1) {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
@@ -453,6 +455,42 @@ footer ul li:nth-child(1){
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 768px) {
+
+    #menu{
+        width: 100%;
+        gap: 0;
+    }
+
+    #menu a:nth-child(1) {
+        color: var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        border-top: none;
+        width: 50%;
+        text-align: center;
+    }
+    
+    #menu a:nth-child(2) {
+        border-bottom: 2px solid var(--main-bg-color);
+        width: 50%;
+        text-align: center;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    footer ul li:nth-child(1) {
+        font-size: 16px;
+    }
+
+    footer ul li {
+        font-size: 14px;
+    }
 }
