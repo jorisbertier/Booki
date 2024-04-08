@@ -38,6 +38,10 @@ body {
     border-top: 2px solid var(--main-color);
 }
 
+#menu a:nth-child(2) {
+    border-top: 2px solid var(--white);
+}
+
 nav {
     display: flex;
     align-items: center;
