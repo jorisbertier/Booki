@@ -482,6 +482,7 @@ footer ul li:nth-child(1){
     }
 }
 /* Tablettes */
+
 @media (max-width: 769px) {
     .filter {
         display: flex;
@@ -514,6 +515,7 @@ footer ul li:nth-child(1){
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 426px) {
 
     .main-container {
