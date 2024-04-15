@@ -689,7 +689,7 @@ footer ul li:nth-child(1){
     .activities-cards article img {
         height: 80%;
     }
-    
+
     .activities-cards .card-content {
         height: 20%;
     }
@@ -711,17 +711,20 @@ footer ul li:nth-child(1){
 }
 
 @media (max-width: 407px) {
+
     .filter button {
         width: 150px;
         font-size: 14px;
     }
 }
+
 @media (max-width: 375px) {
     .filter button {
         width: 130px;
         font-size: 12px;
     }
 }
+
 @media (max-width: 345px) {
     .button-search input {
         width: 200px;
