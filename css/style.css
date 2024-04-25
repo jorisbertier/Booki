@@ -240,6 +240,8 @@ h3 {
     align-items: center;
 }
 
+
+
 /****** Hebergements And Populaires ***********/
 #hebergements-and-populaires {
     display: flex;
@@ -285,7 +287,7 @@ h3 {
 .hebergement-card .card-content {
     width: 100%;
     padding-top:10px;
-    /* padding-bottom:10px; */
+    padding-bottom:3px;
     padding-left: 13px;
 }
 
@@ -310,10 +312,19 @@ h3 {
     height: 12px;
     padding-top: 5px;
 }
+.hebergement-card .card-content .card-rating .fa-xs {
+    font-size: 13.5px;
+}
 
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergement-title h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
 }
 
 /****** Populaires ***********/
@@ -358,7 +369,9 @@ h3 {
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 5px;
+    margin-bottom: 11px;
+    gap: 2px;
+    display: flex;
 }
 
 /* Activities */
