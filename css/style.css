@@ -218,6 +218,11 @@ h3 {
     padding-right: 20px;
 }
 
+.buttons-filter {
+    display: flex;
+    gap: 15px;
+}
+
 .filter button i {
     margin-right:15px;
     font-size: 20px;
