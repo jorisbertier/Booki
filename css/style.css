@@ -289,18 +289,26 @@ h3 {
     padding-left: 13px;
 }
 
-.hebergement-card .card-content .card-txt {
+/* .hebergement-card .card-content .card-txt {
     margin-bottom: -3px;
-}
+} */
 
 .hebergement-card .card-content .card-title {
+    height: 14px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hebergement-card .card-content .card-subtitle {
     height: 10px;
+    font-size: 14px;
 }
 
 .hebergement-card .card-content .card-rating {
     gap: 2px;
     display: flex;
     height: 12px;
+    padding-top: 5px;
 }
 
 /****** Hebergements ***********/
