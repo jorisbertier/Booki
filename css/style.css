@@ -98,7 +98,6 @@ h3 {
 
 .card-title {
     font-size: 16px;
-    height: 10px;
 }
 
 .euro {
@@ -286,8 +285,22 @@ h3 {
 .hebergement-card .card-content {
     width: 100%;
     padding-top:10px;
-    padding-bottom:10px;
-    padding-left: 20px;
+    /* padding-bottom:10px; */
+    padding-left: 13px;
+}
+
+.hebergement-card .card-content .card-txt {
+    margin-bottom: -3px;
+}
+
+.hebergement-card .card-content .card-title {
+    height: 10px;
+}
+
+.hebergement-card .card-content .card-rating {
+    gap: 2px;
+    display: flex;
+    height: 12px;
 }
 
 /****** Hebergements ***********/
