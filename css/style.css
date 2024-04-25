@@ -9,6 +9,7 @@
     --filter-bg-color: #DEEBFF;
     --color-back: black;
     --white: white;
+    --border: #D9D9D9;
 }
 
 .fa-solid {
@@ -202,7 +203,7 @@ h3 {
     padding: 4px;
     gap: 10px;
     border-radius: 25px;
-    border: 2px solid var(--main-bg-color);
+    border: 3px solid var(--border);
     background-color: var(--white);
     color: var(--color-back);
     font-weight: 700;
