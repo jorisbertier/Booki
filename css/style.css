@@ -126,6 +126,7 @@ h3 {
     height: 100%;
     width: 60px;
     background-color: var(--main-bg-color);
+    text-align: center;
 }
 
 .position i {
@@ -147,6 +148,7 @@ h3 {
 
 .button-search input::placeholder {
     color: var(--color-back);
+    font-size: 18px;
 }
 
 .search {
@@ -195,10 +197,12 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 700;
 }
+
 .filter button {
-    width: 173px;
+    width: auto;
     height: 50px;
     padding: 4px;
     gap: 10px;
@@ -210,6 +214,13 @@ h3 {
     font-size: 16px;
     cursor: pointer;
     transition: 0.2s ease;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.filter button i {
+    margin-right:15px;
+    font-size: 20px;
 }
 
 .filter button:hover {
@@ -473,7 +484,7 @@ footer ul li:nth-child(1){
     .activities-cards article {
         height: 90%;
     }
-  }
+}
 
 /* Medium devices (tablets, less/equal than 1024px) */
 
@@ -519,10 +530,11 @@ footer ul li:nth-child(1){
     .activities-cards article img {
         height: 80%;
     }
-}
-/* Tablettes */
 
-@media (max-width: 769px) {
+}
+
+@media (max-width: 892px) {
+
     .filter {
         display: flex;
         flex-direction: column;
@@ -532,7 +544,37 @@ footer ul li:nth-child(1){
         justify-content: start;
     }
     .filter button {
-        width: 135px;
+        font-size: 14px;
+    }
+    .filter button i {
+        margin-right:15px;
+        font-size: 16px;
+    }
+    .filter button .fa-person {
+        font-size: 18px;
+    }
+    .buttons-filter {
+        display: flex;
+        justify-content: flex-start;
+        /* flex-wrap: none; */
+        /* width: 100%; */
+        gap: 15px;
+    }
+}
+/* Tablettes */
+
+@media (max-width: 769px) {
+    /* .filter {
+        display: flex;
+        flex-direction: column;
+    }
+    .filter h3 {
+        display: flex;
+        justify-content: start;
+    } */
+    .filter button {
+        width: auto;
+        max-width: 185px;
         font-size: 14px;
     }
     .card-title {
@@ -553,7 +595,37 @@ footer ul li:nth-child(1){
 
 }
 
+@media (max-width: 730px) {
+    .buttons-filter {
+        flex-wrap: wrap;
+}
+
+.buttons-filter button {
+    flex: 0 0 50%; /* Chaque bouton occupe 50% de la largeur */
+    box-sizing: border-box; /* Inclure les bordures et les marges dans la largeur */
+    text-align: left;
+}
+    .filter button i {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+}
+
 /* Small devices (phones, less than 768px) */
+
+@media (max-width: 429px) {
+    .buttons-filter {
+        justify-content: space-around;
+    }
+    .buttons-filter button {
+        flex: none; /* Chaque bouton occupe 50% de la largeur */
+        text-align: left;
+    }
+    .filter button {
+        width: 182px;
+    }
+}
 
 @media (max-width: 426px) {
 
@@ -628,12 +700,12 @@ footer ul li:nth-child(1){
         margin-left: -20px;
     }
 
-    .filter {
+    /* .filter {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
-    .filter h3 {
+    } */
+    /* .filter h3 {
         display: flex;
         justify-content: left;
     }
@@ -642,12 +714,13 @@ footer ul li:nth-child(1){
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        /* width: 100%; */
+        gap: 50px;
     }
-    .buttons-filter button {
+*/
+    /* .buttons-filter button {
         margin: 5px;
         width: 175px;
-    }
+    }  */
 
     .information {
         margin-bottom: 0px;
@@ -749,23 +822,66 @@ footer ul li:nth-child(1){
     }
 }
 
+@media (max-width: 421px) {
+    .filter button {
+        width: 165px;
+    }
+}
 @media (max-width: 407px) {
 
     .filter button {
         width: 150px;
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .search-mobile {
+        width: 60px;
+    }
+    .search-mobile i {
+        font-size: 15px;
     }
 }
 
 @media (max-width: 375px) {
     .filter button {
-        width: 130px;
+        width: 150px;
         font-size: 12px;
+    }
+    .search-mobile {
+        width: 78px;
+    }
+    .search-mobile i {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+    .filter button {
+        width: 140px;
+        font-size: 11px;
+    }
+    .filter button i {
+        font-size: 14px;
     }
 }
 
 @media (max-width: 345px) {
     .button-search input {
         width: 200px;
+    }
+    .search-mobile {
+        width: 50px;
+    }
+}
+
+@media (max-width: 329px) {
+    .filter button {
+        width: 135px;
+        font-size: 10px;
+    }
+    .filter button i {
+        font-size: 12px;
+    }
+    .search-mobile {
+        width: 68px;
     }
 }
