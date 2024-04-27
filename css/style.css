@@ -853,7 +853,7 @@ footer ul li:nth-child(1){
         font-size: 15px;
     }
 }
-
+/* media mobile */
 @media (max-width: 375px) {
 
     .main-container h2 {
