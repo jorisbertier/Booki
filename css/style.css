@@ -621,6 +621,29 @@ footer ul li:nth-child(1){
 
 /* Small devices (phones, less than 768px) */
 
+
+@media (max-width: 600px) {
+     /* Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    footer ul {
+        width: auto;
+        text-align: left;
+        list-style: none;
+    
+    }
+    footer ul li:nth-child(1) {
+        font-size: 16px;
+    }
+
+    footer ul li {
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 429px) {
     .buttons-filter {
         justify-content: space-around;
@@ -818,21 +841,10 @@ footer ul li:nth-child(1){
     .activities-cards article img {
         height: 80%;
     }
-
-    /* Footer */
     footer {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
         margin-top: 315px;
     }
-    footer ul li:nth-child(1) {
-        font-size: 16px;
-    }
 
-    footer ul li {
-        font-size: 14px;
-    }
 }
 
 @media (max-width: 421px) {
