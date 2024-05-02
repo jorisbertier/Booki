@@ -68,6 +68,7 @@ nav img {
     max-width: 1440px;
     box-sizing: border-box;
     margin: 0 auto;
+    margin-top: 25px;
 }
 
 a {
@@ -799,7 +800,7 @@ footer ul li:nth-child(1){
     }
 
     footer ul li:nth-child(1) {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     footer ul li {
